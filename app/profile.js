@@ -32,7 +32,7 @@ function getProfile(username) {
 					}
 				});
 			} else {
-				const errorMessage = `There was an error getting the profile for the ${username} profile. The status code is: ${res.statusCode} - ${http.STATUS_CODES[res.statusCode]}`;
+				const errMessage = `There was an error getting the profile for the ${username} profile. The status code is: ${res.statusCode} - ${http.STATUS_CODES[res.statusCode]}`;
 				//console.error(errMessage);
 				const err = new Error(errMessage);
 				printError(err);
