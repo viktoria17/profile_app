@@ -2,7 +2,7 @@
 Command line app using Node.js
 
 This is a small command line application that uses Node.js basics. 
-Possible to retrieve some information about Treehous users profiles from the Treehouse API.
+Possible to retrieve some information about Treehouse users profiles from the Treehouse API.
 
 Example of commands:
 1) node app.js chalkers
